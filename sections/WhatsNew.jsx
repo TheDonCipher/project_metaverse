@@ -20,8 +20,8 @@ const WhatsNew = () => (
         variants={fadeIn('right', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="| Whats new?" />
-        <TitleText title={<>What's new about Metaversus?</>} />
+        <TypingText title="| FAQ" />
+        <TitleText title={<>What do you want to know?</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
@@ -34,9 +34,9 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/whats-new.png"
+          src="pexels-jep-gambardella-customerSupport.jpg"
           alt="get-started"
-          className="w-[90%] h-[90%] object-contain"
+          className="w-[90%] h-[90%] object-cover rounded-[40px]"
         />
       </motion.div>
     </motion.div>

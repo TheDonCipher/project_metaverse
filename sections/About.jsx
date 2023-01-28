@@ -16,25 +16,27 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About Metaversus" textStyles="text-center" />
+      <TypingText title="| About Us" textStyles="text-center" />
 
       <motion.p
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Metaverse</span> is a new
-        thing in the future, where you can enjoy the virtual world by feeling
-        like it's really real, you can feel what you feel in this metaverse
-        world, because this is really the{' '}
-        <span className="font-extrabold text-white">
-          madness of the metaverse
-        </span>{' '}
-        of today, using only{' '}
-        <span className="font-extrabold text-white">VR</span> devices you can
-        easily explore the metaverse world you want, turn your dreams into
-        reality. Let's{' '}
-        <span className="font-extrabold text-white">explore</span> the madness
-        of the metaverse by scrolling down
+        We are a brand-new technology business that sells{' '}
+        <span className="font-extrabold text-white">refurbished</span> Samsung
+        and iPhone smartphones. We focus on offering customers with the best
+        smartphone deals so they get the latest in smartphone features with up
+        to <span className="font-extrabold text-white">50% in savings.</span>
+        <br />
+        <br />
+        We also offer well known methods of making payments as to ensure that
+        customers make purchases smoothly. These purchases also come with a
+        warranty, quick delivery, and first-rate customer support surpassing
+        that of local retailers.
+        <br />
+        <br />
+        Additionally, buying refurbished products is
+        <span className="text-green-700"> good for the environment.</span>
       </motion.p>
 
       <motion.img
